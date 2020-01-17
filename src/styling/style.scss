@@ -1,0 +1,145 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; background:transparent }
+
+.container {width:1170px; margin: 0 auto; box-sizing:border-box}
+ .main-header{
+     width:100%; padding:20px 0px;}
+ 
+     .logo {width:48%; float: left;
+     a {font-size:50px; font-weight:600; text-decoration: none; line-height: 25px; }
+    }
+    .btn-demo {
+        text-align: end;
+        padding-top: 40px;
+        a {
+            color: #4e4e4e;
+            text-decoration: none;
+            line-height: 35px;
+            border-radius: 3px;
+            font-size: 16px;
+            font-weight: 600;
+            display: block;
+        }
+        a:hover {
+            color: #e7342c;
+            
+        }
+        text {
+            margin-left: 3px;
+        }
+         
+    }
+    #banner {
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        text-align: center;
+        background-image: url(../images/banner.png);
+        position: relative;
+        height: 714px;
+        background-repeat: no-repeat;
+        background-size: cover;
+   
+         .col-md-12 {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left:0px;
+            right:0px;
+            margin: 0 auto;
+ 
+        }
+
+
+        h1 {
+            font-size: 72px;
+            font-weight: 600;
+            color:white;
+            width: 80%;
+            margin: 0 auto;
+            line-height: 100px;
+        
+        }
+        p {
+            font-size: 40px !important;
+            color: white;
+            line-height: 54px;
+            width: 75%;
+            margin: 0 auto;
+        }
+           
+    }
+
+
+    #job {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        text-align: center;
+        padding: 70px 0px;
+
+         h1 {
+            color: #2b3132;
+            font-size: 40px;
+            font-weight: 500;
+            line-height: auto;
+            margin-bottom: 25px;
+        }
+
+    p {
+            color: #737879;
+            font-size: 22px;
+            line-height: 30px;
+            font-weight: 300;
+            width: 95%;
+            margin: 0 auto;
+        }
+    }
+
+
+    #Red {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        background: #e7342c;
+        padding: 50px 0px;
+
+        h2 {
+            font-size: 29px;
+            line-height: 36px;
+            color: white;
+            padding-top: 50px;
+            font-weight: 300;
+        }
+    }
+
+    #offer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 95px 0px;
+
+        .offer-text p {
+            width: 66%;
+            float: right;
+            color: #737879;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 300;
+        }
+        h5 {
+            
+            text-align: center;
+            padding-top: 100px;
+            color: #737879;
+            font-size: 18px;
+            line-height: 36px;
+            font-weight: 300;
+        }
+        
+    }
+
+   
