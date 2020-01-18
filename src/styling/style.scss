@@ -167,7 +167,7 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
                 height: 50px;
                 left: 0px;
                 background-repeat: no-repeat;
-                list-style-image: url(../images/list-style-icon.png);
+                background-image: url(../images/list-style-icon.png);
             }
         }
 
@@ -326,6 +326,29 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
             display: block;
             overflow: hidden;
             padding: 50px 0px;
+
+            h6 {
+                color: white;
+                margin: 0px;
+                font-size: 16px;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                padding-left:40px;
+            }
+            ul li {
+                list-style: none;
+                a {
+                    color: #b6bfc1;
+                    text-decoration: none;
+                    line-height: 40px;
+                    font-size: 16px;
+                    font-weight: normal;
+                }
+                a:hover{color: #e7342c;}
+            }
+
+            
+            
         }
           p {
             margin: 0px;
@@ -337,27 +360,67 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
 
         .footer-form {
             margin-top: 20px;
+            position: relative;
 
              input {
-                padding: 19px;
+                padding: 17px;
                 border-radius: 3px;
                 border: 0px;
                 font-size: 16px;
                 width: 100%;
                 position: relative;
             }
+            #red {
+                background: none;
+            }
+
             button {
-                background-image: url(../images/footer-submit-btn.png);
+                background-image: url(../images/footer-submit-btn.png) !important;
                 border: none;
                 height: 59px;
-                background-repeat: no-repeat;
+                background-repeat: no-repeat !important;
                 background-position: center;
                 float: right;
-                width: 18%;
+                width: 60px;
                 margin-top: -59px;
+                position: absolute; 
+                top: 59px;     
+                right: 0;
             }
         }
-        
+
+        .address span {
+            color: #E8322E;
+            font-size: 16px;
+            font-weight: normal;
+            padding-left: 40px;
+            margin-top: 20px;
+            display: block;
+        }
+        .address samp  {
+            color: #fff;
+            font-size: 16px;
+            font-weight: normal;
+            padding-left: 40px; 
+            display: block;
+        }
+
+        .address   a {
+            color: #fff;
+            font-size: 16px;
+            font-weight: normal;
+            display: block;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+           .copy-right {
+            display: block;
+            overflow: hidden;
+            text-align: center;
+            padding-top: 30px;
+            border-top: 2px solid #383d3e;
+        } 
         
     }
 
