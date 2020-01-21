@@ -1,5 +1,7 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+ 
+
 body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; background:transparent }
 
 .container {width:1170px; margin: 0 auto; box-sizing:border-box}
@@ -232,13 +234,9 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
             background: white;
             color: #e43c2f;
             transition: all ease-in-out 0.5s;
-        }
-        
+        }  
 
     }
-
-
-
 
     #journey {
         width: 100%;
@@ -423,6 +421,300 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
         } 
         
     }
+
+
+
+    
+@media only screen and (max-width: 1199px) {
+
+    body{overflow-x: hidden;}
+   
+   #banner{
+
+  
+     h1 {
+        font-size: 60px;
+        line-height: 80px; }
+  
+    p {
+        font-size: 33px !important;
+    }
+}
+#journey{
+
+ 
+
+      span {
+        font-size: 16px;
+    }
+
+    h1 {    
+        font-size: 40px;
+    }
+
+}
+
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    #job {
+        .job-heading{
+
+            p {  
+                font-size: 18px;
+                width: 100%;
+                }
+        }
+
+     
+}
+   #Red{ 
+   
+   .col-md-4 {
+        flex: 0 0 100.33333%;
+        max-width: 100.33333%;
+    }
+
+      h2 {
+        font-size: 26px;  
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+}
+
+
+    #offer {  
+    
+        .offer-text { 
+        p {
+        width: 100%;
+        float: unset;
+        text-align: center;
+    }
+}
+
+      .col-md-4 {
+        flex: 0 0 100.33333%;
+        max-width: 100.33333%;
+    }
+    .offer-section-1{
+        h5 { 
+        padding-top: 0px;
+        }
+
+
+    }
+
+.col-md-8 {
+	flex: 0 0 100.667%;
+	max-width: 100.66667%;
+}
+
+    }
+
+    #journey{
+        text-align: center;
+
+        .col-md-8 {
+            flex: 0 0 100.66667%;
+            max-width: 100.66667%;
+        }
+
+        .col-md-4 {
+            flex: 0 0 100.33333%;
+            max-width: 100.33333%;
+        }
+        .journey-link{
+            padding-top: 20px;
+              a { 
+                text-align: center;
+                width: 35%;
+                margin: 0 auto;
+                padding: 20px 30px;
+            }
+
+        }
+
+    
+    }
+
+    footer {
+        .col {
+            flex-basis: 50%;
+            flex-grow: 1;
+        } 
+    }
+
+
+
+}
+
+
+ 
+
+
+@media only screen and (max-width: 767px) {
+    
+
+    .main-header {
+        display: flex;
+        text-align: center;
+        .logo {
+            width: 100%;
+            float: unset;
+        } 
+        .btn-demo {
+            text-align: unset;
+            padding-top: 20px;
+        }
+    }
+
+    #banner{
+    .col-md-12 {
+     top: 60%;
+     transform: translateY(-50%);
+    }
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+        padding-bottom: 10px;
+    }
+     p {
+        font-size: 18px !important;
+        line-height: 30px;
+    }
+
+
+
+    }
+
+
+#job{
+    .job-heading {
+        h1 {
+            font-size: 30px;
+        }
+
+        p {font-size: 16px;}
+    }
+}
+
+
+#offer {
+    .check-form{
+
+          form {
+            
+            float: unset;
+
+             input {
+                width: 100%;
+                margin: 1%;
+            }
+            select {
+                width: 100%;
+                margin: 1%;
+            }
+              button {
+            width: 100%;   
+            margin-top: 10px;
+            }
+             
+            
+        }
+    }
+
+
+}
+
+
+#journey{ display: flex;
+
+    h1 {
+        font-size: 30px;
+    }
+    .journey-link{ padding-top: 10px;
+        a {
+            width: 50%;
+        }
+    }
+}
+
+
+
+footer { display:flex; padding: 50px 0px 20px;
+    .footer-section-1 {
+
+         .footer-logo {
+            width: 100%;
+            float: unset;
+            text-align: center;
+             
+        }
+        .footer-icon {
+            float: unset;
+            text-align: center;
+
+            ul{ margin-top:20px; padding-left:0px;}
+        }
+    }
+    .heading-footer-section{   padding:20px 0px;}
+     .col {
+        flex-basis: 100%;
+        flex-grow: 1;
+     
+}
+
+}
+
+}
+
+
+@media only screen and (max-width: 420px) {
+
+#banner {
+ h1 {
+    font-size: 30px;
+    line-height: 50px;
+    padding-bottom: 10px;
+}
+
+
+}
+    #journey {
+        span {font-size: 12px;}
+
+        h1{
+            font-size: 24px;
+        }
+
+        .journey-link {
+            a {width:100%;}
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
