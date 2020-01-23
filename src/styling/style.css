@@ -7158,6 +7158,9 @@ body {
   background: white;
   box-shadow: 0px 0px 4px #8080806e; }
 
+a {
+  color: red; }
+
 .logo {
   width: 48%;
   float: left; }
@@ -7207,12 +7210,13 @@ body {
     width: 80%;
     margin: 0 auto;
     line-height: 100px; }
-  #banner p {
-    font-size: 40px !important;
+  #banner h2 {
+    font-size: 40px;
     color: white;
     line-height: 54px;
     width: 75%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    font-weight: 600; }
 
 #job {
   width: 100%;
@@ -7221,7 +7225,7 @@ body {
   align-content: center;
   text-align: center;
   padding: 70px 0px; }
-  #job h1 {
+  #job h2 {
     color: #2b3132;
     font-size: 40px;
     font-weight: 500;
@@ -7242,12 +7246,12 @@ body {
   text-align: center;
   background: #e7342c;
   padding: 50px 0px; }
-  #Red h2 {
+  #Red h3 {
     font-size: 29px;
     line-height: 36px;
     color: white;
     padding-top: 50px;
-    font-weight: 300; }
+    font-weight: 600; }
 
 #offer {
   width: 100%;
@@ -7265,7 +7269,7 @@ body {
     text-align: center;
     padding-top: 100px;
     color: #737879;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 36px;
     font-weight: 600; }
   #offer .job-training {
@@ -7294,6 +7298,7 @@ body {
     padding: 40px;
     text-align: center; }
   #offer h4 {
+    font-size: 24px;
     color: white !important;
     text-align: center;
     padding: 0px 0px 20px; }
@@ -7340,22 +7345,22 @@ body {
   width: 100%;
   display: block;
   overflow: hidden;
-  background: #e43c2f;
-  padding: 80px 0px; }
+  padding: 80px 0px;
+  background: #e7342c; }
   #journey span {
     font-size: 18px;
     color: white;
     font-weight: 400;
     letter-spacing: 2px; }
-  #journey h1 {
+  #journey h2 {
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400; }
   #journey .journey-link {
     width: 100%;
     display: block;
     overflow: hidden;
-    padding-top: 44px; }
+    padding-top: 20px; }
   #journey a {
     border-radius: 3px;
     color: #2b3132;
@@ -7481,11 +7486,11 @@ footer {
   #banner h1 {
     font-size: 60px;
     line-height: 80px; }
-  #banner p {
+  #banner h2 {
     font-size: 33px !important; }
   #journey span {
     font-size: 16px; }
-  #journey h1 {
+  #journey h2 {
     font-size: 40px; } }
 
 @media only screen and (max-width: 991px) {
@@ -7495,7 +7500,7 @@ footer {
   #Red .col-md-4 {
     flex: 0 0 100.33333%;
     max-width: 100.33333%; }
-  #Red h2 {
+  #Red h3 {
     font-size: 26px;
     padding-top: 50px;
     padding-bottom: 50px; }
@@ -7547,10 +7552,10 @@ footer {
     font-size: 40px;
     line-height: 50px;
     padding-bottom: 10px; }
-  #banner p {
+  #banner h2 {
     font-size: 18px !important;
     line-height: 30px; }
-  #job .job-heading h1 {
+  #job .job-heading h2 {
     font-size: 30px; }
   #job .job-heading p {
     font-size: 16px; }
@@ -7567,7 +7572,7 @@ footer {
       margin-top: 10px; }
   #journey {
     display: flex; }
-    #journey h1 {
+    #journey h2 {
       font-size: 30px; }
     #journey .journey-link {
       padding-top: 10px; }
@@ -7593,9 +7598,13 @@ footer {
       flex-grow: 1; } }
 
 @media only screen and (max-width: 420px) {
+  #banner h1 {
+    font-size: 30px;
+    line-height: 50px;
+    padding-bottom: 10px; }
   #journey span {
     font-size: 12px; }
-  #journey h1 {
+  #journey h2 {
     font-size: 24px; }
   #journey .journey-link a {
     width: 100%; } }

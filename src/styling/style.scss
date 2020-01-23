@@ -1,21 +1,28 @@
+
 @import "node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
- 
+$bgcolor: #e7342c;
+$textcolor: darkblue;
+$fontsize: 16px; 
+$h1font-size:72px; $font-weight:700;
+$h2font-size:40px;  $font-weight:400;
+$h3font-size:29px;  $font-weight:600;
+$h4font-size:24px;
+$h5font-size:20px;
 
-body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; background:transparent }
-
+body{font-size:$fontsize;  margin: 0 auto;   font-family: 'Open Sans', sans-serif; background:transparent }
 .container {width:1170px; margin: 0 auto; box-sizing:border-box}
  .main-header{
     width: 100%;
     padding: 20px 0px;
     position: fixed;
     z-index: 99999;
-    background:
-    white;
+    background: white;
     box-shadow: 0px 0px 4px
         #8080806e;
-    }
- 
+        
+    } 
+    a { color:red;}
      .logo {width:48%; float: left;
      a {font-size:50px; font-weight:600; text-decoration: none; line-height: 25px; }
     }
@@ -63,20 +70,21 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
 
 
         h1 {
-            font-size: 72px;
-            font-weight: 600;
+            font-size:$h1font-size;
+            font-weight:$font-weight;
             color:white;
             width: 80%;
             margin: 0 auto;
             line-height: 100px;
         
         }
-        p {
-            font-size: 40px !important;
+        h2 {
+            font-size:$h2font-size;
             color: white;
             line-height: 54px;
             width: 75%;
             margin: 0 auto;
+            font-weight:$font-weight;
         }
            
     }
@@ -90,9 +98,9 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
         text-align: center;
         padding: 70px 0px;
 
-         h1 {
+         h2 {
             color: #2b3132;
-            font-size: 40px;
+            font-size:$h2font-size;
             font-weight: 500;
             line-height: auto;
             margin-bottom: 25px;
@@ -114,15 +122,15 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
         display: flex;
         flex-wrap: wrap;
         text-align: center;
-        background: #e7342c;
+        background:$bgcolor;
         padding: 50px 0px;
 
-        h2 {
-            font-size: 29px;
+        h3 {
+            font-size:$h3font-size;
             line-height: 36px;
             color: white;
             padding-top: 50px;
-            font-weight: 300;
+            font-weight:$font-weight;
         }
     }
 
@@ -145,7 +153,7 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
             text-align: center;
             padding-top: 100px;
             color: #737879;
-            font-size: 18px;
+            font-size:$h5font-size;
             line-height: 36px;
             font-weight: 600;
         }
@@ -184,6 +192,7 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
            
         }
           h4 {
+            font-size:$h4font-size;
             color: white !important;
             text-align: center;
             padding: 0px 0px 20px;
@@ -242,8 +251,9 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
         width: 100%;
         display: block;
         overflow: hidden;
-        background: #e43c2f;
         padding: 80px 0px;
+        background:$bgcolor;
+        
 
           span {
             font-size: 18px;
@@ -251,16 +261,16 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
             font-weight: 400;
             letter-spacing: 2px;
         }
-        h1 {
+        h2 {
             color: white;
-            font-size: 50px;
+            font-size:$h2font-size;
             font-weight: 400;
         }
         .journey-link {
             width: 100%;
             display: block;
             overflow: hidden;
-            padding-top: 44px;
+            padding-top: 20px;
         }
 
         a {
@@ -436,7 +446,7 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
         font-size: 60px;
         line-height: 80px; }
   
-    p {
+    h2 {
         font-size: 33px !important;
     }
 }
@@ -448,7 +458,7 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
         font-size: 16px;
     }
 
-    h1 {    
+    h2 {    
         font-size: 40px;
     }
 
@@ -477,7 +487,7 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
         max-width: 100.33333%;
     }
 
-      h2 {
+      h3 {
         font-size: 26px;  
         padding-top: 50px;
         padding-bottom: 50px;
@@ -582,7 +592,7 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
         line-height: 50px;
         padding-bottom: 10px;
     }
-     p {
+     h2 {
         font-size: 18px !important;
         line-height: 30px;
     }
@@ -594,7 +604,7 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
 
 #job{
     .job-heading {
-        h1 {
+        h2{
             font-size: 30px;
         }
 
@@ -633,7 +643,7 @@ body{font-size: 16px;  margin: 0 auto;  font-family: 'Open Sans', sans-serif; ba
 
 #journey{ display: flex;
 
-    h1 {
+    h2 {
         font-size: 30px;
     }
     .journey-link{ padding-top: 10px;
@@ -687,7 +697,7 @@ footer { display:flex; padding: 50px 0px 20px;
     #journey {
         span {font-size: 12px;}
 
-        h1{
+        h2{
             font-size: 24px;
         }
 
